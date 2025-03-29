@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background: #333;
+            padding: 15px;
+        }
+
+        .nav-section {
+            list-style: none;
+        }
+
+        .nav-section a {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+
+        .section1 a {
+            color: lightblue;
+        }
+
+        .section2 a {
+            color: lightgreen;
+        }
+
+        .section3 a {
+            color: lightcoral;
+        }
+
+        .nav-section > li > a {
+            font-weight: bold;
+        }
+
+        .nav-section a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-section a:active {
+            color: yellow;
+        }
+
+        .nav-section a[href^="https"] {
+            color: orange !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-section section1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="https://example.com">External Link</a></li>
+        </ul>
+        <ul class="nav-section section2">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="https://portfolio.com">External Link</a></li>
+        </ul>
+        <ul class="nav-section section3">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="https://support.com">External Link</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
