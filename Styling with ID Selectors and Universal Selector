@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        #main-title {
+            font-size: 32px;
+            color: darkblue;
+            text-align: center;
+        }
+
+        #subtitle {
+            font-size: 24px;
+            color: darkgreen;
+        }
+
+        p {
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid lightgray;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-title">Main Title</h1>
+    <h2 id="subtitle">Subtitle</h2>
+    <p>This is the first paragraph with default styling, padding, and a soft border.</p>
+    <p>This is the second paragraph with default styling, padding, and a soft border.</p>
+    <p>This is the third paragraph with default styling, padding, and a soft border.</p>
+</body>
+</html>
