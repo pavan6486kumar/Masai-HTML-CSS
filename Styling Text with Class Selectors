@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: navy;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .note {
+            font-style: italic;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Main Heading</h1>
+    <h2>Subheading</h2>
+    <p class="highlight">This is the first paragraph with a yellow background and bold text.</p>
+    <p class="note">This is the second paragraph with italic text and a dark green font color.</p>
+    <p>This is the third paragraph with a default font size of 16px.</p>
+</body>
+</html>
